@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BestRest</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="first parallax-bg">
+      <img
+        src="assets/bg-forms/section_1-svg_1.svg"
+        alt="section_1-svg_1"
+        class="first-figure first-figure-1"
+      />
+      <img
+        src="assets/bg-forms/section_1-svg_2.svg"
+        alt="section_1-svg_2"
+        class="first-figure first-figure-2"
+      />
+      <img
+        src="assets/bg-forms/section_1-svg_3.svg"
+        alt="section_1-svg_3"
+        class="first-figure first-figure-3"
+      />
+      <div class="container h-100 container-sm">
+        <div class="row h-100 justify-content-center">
+          <div class="col-sm-7 first-content">
+            <img class="first-logo" src="assets/logo.svg" alt="logo" />
+            <h1 class="first-title">
+              Find the <span class="lightgreen">best place</span>
+              <span class="lightgreen">to&nbsp;rest</span> while traveling
+            </h1>
+            <a href="#" class="first-link btn">Registration</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="second parallax-bg-2">
+      <img
+        src="assets/bg-forms/section_2-svg_1.svg"
+        alt="section_1-svg_1"
+        class="second-figure second-figure-1"
+      />
+      <img
+        src="assets/bg-forms/section_2-svg_2.svg"
+        alt="section_1-svg_2"
+        class="second-figure second-figure-2"
+      />
+      <img
+        src="assets/bg-forms/section_2-svg_3.svg"
+        alt="section_1-svg_3"
+        class="second-figure second-figure-3"
+      />
+      <div class="container h-100">
+        <div class="row h-100 justify-content-center">
+          <div class="col-sm-6 second-screen">
+            <div class="second-content">
+              <div class="second-content__form">
+                <h2 class="second-title">
+                  <span class="lightgreen">Sign Up</span> and find the best
+                  place to rest while traveling
+                </h2>
+                <form class="form" id="form" novalidate>
+                  <div class="input-wrapper">
+                    <input
+                      class="first-name"
+                      name="first-name"
+                      id="firstName"
+                      type="text"
+                      required
+                    />
+                    <span class="floating-label">First Name</span>
+                    <small class="error"
+                      >The name must be more than 2 characters</small
+                    >
+                  </div>
+                  <div class="input-wrapper">
+                    <input
+                      class="second-name"
+                      name="second-name"
+                      id="secondName"
+                      type="text"
+                      required
+                    />
+                    <span class="floating-label">Second Name</span>
+                    <small class="error"
+                      >The name must be more than 2 characters</small
+                    >
+                  </div>
+                  <div class="input-wrapper input-country">
+                    <input
+                      class="country"
+                      name="country"
+                      id="country"
+                      type="text"
+                      required
+                    />
+                    <span class="floating-label">Country</span>
+                    <div class="country-select">
+                      <div class="country-name" data-tel="+93">Afghanistan</div>
+                      <div class="country-name" data-tel="+355">Albania</div>
+                      <div class="country-name" data-tel="+213">Algeria</div>
+                      <div class="country-name" data-tel="+376">Andorra</div>
+                    </div>
+                    <span class="select"></span>
+                    <small class="error">Fill in the field</small>
+                  </div>
+                  <div class="input-wrapper">
+                    <input
+                      class="phone"
+                      name="phone"
+                      id="phone"
+                      type="tel"
+                      required
+                    />
+                    <span class="floating-label">Phone</span>
+                    <small class="error">Fill in the field</small>
+                  </div>
+                  <div class="input-wrapper">
+                    <input
+                      class="password"
+                      name="password"
+                      id="password"
+                      type="password"
+                      required
+                    />
+                    <span class="floating-label">Password</span>
+                    <small class="error"
+                      >Password must have 1 letter, 1 number and one
+                      symbol</small
+                    >
+                  </div>
+                  <div class="input-wrapper">
+                    <input
+                      class="confirm-password"
+                      name="confirm-password"
+                      id="confirm-password"
+                      type="password"
+                      required
+                    />
+                    <span class="floating-label">Confirm Password</span>
+                    <small class="error">Password does not match</small>
+                  </div>
+                  <div class="input-wrapper">
+                    <input
+                      class="email"
+                      name="email"
+                      id="email"
+                      type="text"
+                      required
+                    />
+                    <span class="floating-label">Email</span>
+                    <small class="error">Email is not correct</small>
+                  </div>
+                  <div class="input-wrapper checkbox">
+                    <label class="checkbox-container"
+                      >I agree to the
+                      <a href="#" class="text-link">Terms & Conditions</a>
+                      <input
+                        type="checkbox"
+                        id="checkbox"
+                        name="checkbox"
+                        required
+                      />
+                      <span class="checkmark" id="checkmark"></span>
+                    </label>
+                  </div>
+                  <button class="btn form-btn" type="submit">Sign Up</button>
+                </form>
+              </div>
+              <p class="second-info">
+                If you have an account, <a href="#" class="text-link">Log In</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scroll-out.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
